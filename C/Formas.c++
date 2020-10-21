@@ -37,7 +37,7 @@ int main(void){
         suma += a[i];
     }
     eT=get_walltime();
-    printf("Valor 1 de suma es:  %d, con un tiempo de ejecución de %f segundos \n", suma, eT-sT);
+    printf("Valor 1 de suma es:  %d , con un tiempo de ejecución de %f segundos \n", suma, eT-sT);
     // Forma 2
     sT=get_walltime();
     for (suma=0, i=0; i<n; i++){
